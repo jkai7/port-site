@@ -1,7 +1,19 @@
+body {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
 .section {
     padding: 100px 0;
 }
 
 .aboutImage {
     max-width: 100%;
+}
+
+.skillsSection {
+    background-color: #042A2B;
+    color: #fff
 }
