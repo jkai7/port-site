@@ -17,7 +17,9 @@ $(document).ready(function(){
         }
     }); // end owl carousel
 
-
+    $('.chart').easyPieChart({
+        //your options goes here
+    });
 
 
 
