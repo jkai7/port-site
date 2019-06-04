@@ -20,7 +20,7 @@ $(document).ready(function(){
     }); // end owl carousel
 
     let skillsTopOffset = $('.skillsSection').offset().top;
-        console.log(skillsTopOffset); //836.8
+        //console.log(skillsTopOffset); //836.8
 
     $(window).scroll(function(){// on scroll for skills section
 
