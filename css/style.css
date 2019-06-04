@@ -17,3 +17,32 @@ body {
     background-color: #042A2B;
     color: #fff
 }
+
+.skill {
+    text-align: center;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 20px
+}
+
+.chart .percent {
+    line-height: 110px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.chart .percent:after {
+    content: '%';
+}

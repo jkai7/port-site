@@ -19,18 +19,25 @@ $(document).ready(function(){
         }
     }); // end owl carousel
 
-    $('.chart').easyPieChart({
-        easing: 'easeInOut',
-        barColor: '#fff',
-        trackColor: false,
-        scaleColor: false,
-        lineWidth: 4,
-        onStep: function(from, to, percent) {
-            $(this.el).find('.percent').text(Math.round(percent));
+    let skillsTopOffset = $('.skillsSection').offset().top;
+        console.log(skillsTopOffset); //836.8
+
+    $(window).scroll(function(){// on scroll for skills section
+
+        if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+
+            $('.chart').easyPieChart({
+                easing: 'easeInOut',
+                barColor: '#fff',
+                trackColor: false,
+                scaleColor: false,
+                lineWidth: 4,
+                onStep: function(from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+            });
         }
-    });
-
-
+    });// end scroll function for skills section
 
 
 });
