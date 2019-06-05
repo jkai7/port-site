@@ -235,3 +235,13 @@ body {
 .item:hover .projectLink {
     right: 0px
 }
+
+.copyrightSection {
+    background-color: #002147;
+    color: #fff;
+    padding: 30px 5px
+}
+
+.copyrightSection p {
+    margin: 0
+}
