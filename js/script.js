@@ -40,4 +40,7 @@ $(document).ready(function(){
     });// end scroll function for skills section
 
 
+    $("[data-fancybox]").fancybox();
+
+
 });

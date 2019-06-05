@@ -150,3 +150,8 @@ body {
     width: 100%
 }
 
+.items img{
+    width: 230px;
+    height: 230px;
+    border-radius: 3px
+}
