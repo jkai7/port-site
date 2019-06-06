@@ -69,7 +69,31 @@ $(document).ready(function(){
 
         return false;
 
-    });
+    });// filter portfolio
+
+    $("#navigation a").click(function(e) {
+        e.preventDefault();
+        let targetElement = $(this).attr("href");
+        let targetPosition = $(targetElement).offset().top;
+        $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow")
+
+    });//scroll to link
+
+    const nav = $("#navigation");
+    const navTop = nav.offset().top;
+
+    $(window).on("scroll", stickyNavigation);
+        function stickyNavigation () {
+            let body = $("body");
+            if ($(window).scrollTop() >= navTop) {
+                body.css("padding-top", nav.outerHeight() + "px")
+                body.addClass("fixedNav");
+            } else {
+                body.css("padding-top", 0)
+                body.removeClass("fixedNav");
+            }
+        }// sticky nav
+
 
 
 });//end doc ready
