@@ -1,3 +1,19 @@
+$(window).on("load", function() {
+    $(".loader .inner").fadeOut(100, function() {
+        $(".loader").fadeOut(300);
+    });
+
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    });
+
+})
+
 $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
@@ -42,15 +58,6 @@ $(document).ready(function(){
 
     $("[data-fancybox]").fancybox();
 
-    $(".items").isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 1500,
-            easing: 'linear',
-            queue: false
-        }
-    });
-
     $("#filters a").click(function() {
 
         $("#filters .current").removeClass("current");
@@ -93,7 +100,5 @@ $(document).ready(function(){
                 body.removeClass("fixedNav");
             }
         }// sticky nav
-
-
 
 });//end doc ready
