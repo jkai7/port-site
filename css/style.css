@@ -314,3 +314,7 @@ body {
     background-image: initial;
     background-color: rgb(36, 38, 40);
 }
+
+.name {
+    padding-top: 50px
+}
