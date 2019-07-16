@@ -1,7 +1,7 @@
 body {
     font-size: 14px;
     color: #333;
-    background-color: #fff;
+    background-color: #D0FBFD;
     letter-spacing: 1px;
 }
 
@@ -15,7 +15,7 @@ body {
 
 .skillsSection,
 .contactSection {
-    background-color: #002147; /*042A2B, 56CEDE*/
+    background-color: #27467A; /*042A2B, 56CEDE*/
     color: #fff
 }
 
@@ -58,7 +58,7 @@ body {
     position: relative;
     padding: 50px 15px 35px;
     text-align: center;
-    border: 2px solid #002147;
+    border: 2px solid #27467A;
     border-top: none;
 }
 
@@ -68,7 +68,7 @@ body {
     position: absolute;
     top: 0px;
     width: 30%;
-    border-bottom: 2px solid #002147;
+    border-bottom: 2px solid #27467A;
 }
 
 .squareInnerContainer::before {
@@ -83,7 +83,7 @@ body {
     font-size: 56px;
     margin-bottom: 10px;
     font-weight: 400;
-    color: #002147
+    color: #27467A
 
 }
 
@@ -101,7 +101,7 @@ body {
     height: 60px;
     font-size: 45px;
     margin-left: -20%;
-    color: #002147
+    color: #27467A
 }
 
 .contactButton {
@@ -116,7 +116,7 @@ body {
 
 .contactButton:hover {
     text-decoration: none;
-    color: #002147;
+    color: #27467A;
     background-color: #fff
 }
 
@@ -134,8 +134,8 @@ body {
 }
 
 .filter .current {
-    background-color: #002147;
-    border-color: #002147;
+    background-color: #27467A;
+    border-color: #27467A;
     color: #fff
 }
 
@@ -193,7 +193,7 @@ body {
 .icons a {
     width: 40px;
     height: 40px;
-    background-color: #002147;
+    background-color: #27467A;
     position: relative;
     display: inline-block;
     -webkit-transition: all 0.2s linear, 0.3s;
@@ -241,7 +241,7 @@ body {
 }
 
 .copyrightSection {
-    background-color: #002147;
+    background-color: #27467A;
     color: #fff;
     padding: 30px 5px
 }
@@ -251,7 +251,7 @@ body {
 }
 
 #navigation {
-    background-color: #002147;
+    background-color: #27467A;  /*002147*/
     padding: 15px 30px;
     border-bottom: 2px solid #fff;
     z-index: 100;
